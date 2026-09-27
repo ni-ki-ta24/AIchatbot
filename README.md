@@ -2,38 +2,43 @@
 
 ## 📌 Project Overview
 
-This project is a Java-based AI Chatbot developed as part of the CodeAlpha Internship.
+AI Chatbot is a Java-based chatbot developed as part of the CodeAlpha Internship.
 
-The chatbot can interact with users, understand basic text input using NLP techniques, and provide answers using a rule-based FAQ system.
+The chatbot accepts user questions, processes the input using basic Natural Language Processing (NLP) techniques, and provides suitable responses using a rule-based FAQ system.
 
-The project also includes a Java Swing GUI for interactive communication.
+The project also includes a Java Swing GUI that allows users to interact with the chatbot through a simple desktop application.
 
 ---
 
 ## 🚀 Features
 
 - Interactive chatbot conversation
-- Natural Language Processing (NLP)
-- Text cleaning and tokenization
-- Rule-based FAQ system
+- Text preprocessing using NLP
+- Lowercase conversion
+- Punctuation removal
+- Text tokenization
+- Keyword-based FAQ matching
 - 25+ predefined FAQs
-- Java Swing GUI
-- Common question handling
-- Fallback responses for unknown questions
+- Java Swing graphical interface
+- Send message using button or Enter key
+- Clear conversation option
+- Exit option
+- Local fallback responses for unknown questions
 - AI API integration
-- Exit and clear chat options
 
 ---
 
 ## 🛠️ Technologies Used
 
 - Java
-- Object-Oriented Programming
-- Natural Language Processing
+- Object-Oriented Programming (OOP)
+- Natural Language Processing (NLP)
 - Rule-Based Chatbot
 - Java Swing
-- HTTP Client
+- Java HTTP Client
 - AI API
+- Git
+- GitHub
 - VS Code
 
 ---
@@ -61,4 +66,10 @@ AIchatbot
 │   ├── TestChatbot.java
 │   └── TestAI.java
 │
+├── screenshots
+│   ├── screenshot1-main-gui.png
+│   ├── screenshot2-chatbot-conversation.png
+│   └── screenshot3-gui-features.png
+│
+├── .gitignore
 └── README.md
